@@ -19,7 +19,7 @@ public class HelloController {
 
     @RequestMapping("/")
     public String index() {
-        return "这是测试项目";
+        return "这是测试项目啊";
     }
 
 }
