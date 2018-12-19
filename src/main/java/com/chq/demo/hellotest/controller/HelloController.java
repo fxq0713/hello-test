@@ -17,4 +17,9 @@ public class HelloController {
     }
 
 
+    @RequestMapping("/")
+    public String index() {
+        return "这是个测试项目";
+    }
+
 }
